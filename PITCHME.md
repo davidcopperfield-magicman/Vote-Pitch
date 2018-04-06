@@ -9,14 +9,12 @@
 - Decentralized |
 - Open Source |
 - Modular |
-- ? |
-- ??? |
-- Custom Logo, TOC, and Footnotes |
+- Secure |
 
 ---
-@title[JavaScript Block]
+@title[Technical Explanation]
 
-<p><span class="slide-title">JavaScript Block</span></p>
+<p><span class="slide-title">Code Block</span></p>
 
 ```javascript
 // Include http module.
@@ -72,6 +70,6 @@ http.createServer(function (request, response) {
 
 @title[Go Rock The Poll!]
 
-### Vote App Demo!
+### Big Thanks To The Rock & Roll Hall of Fame!
 ### [Go Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
 
