@@ -1,6 +1,6 @@
-# Rock The Poll
+## Rock The Poll
 
-### A SXSW Hackathon Project 
+#### A SXSW Hackathon Project 
 
 ---
 
