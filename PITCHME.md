@@ -1,16 +1,6 @@
-# VoteApp
+# Rock The Poll
 
-### A SXSW Hackathon Project Presentation
-
----
-
-## Tips!
-
-<br>
-
-@fa[arrows gp-tip](Press F to go Fullscreen)
-
-@fa[microphone gp-tip](Press S for Speaker Notes)
+### A SXSW Hackathon Project 
 
 ---
 
@@ -58,13 +48,13 @@ http.createServer(function (request, response) {
 ---
 
 ## How To Use
-
-- [Register](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Sign In](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides)
-- [Review Candidates](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
-- [Submit Vote](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
-- [View Vote Confirmation](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
-- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting), [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents), and [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
+- [Go Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
+- [Register](https://)
+  + [Sign In](https://)
+- [Review Candidates](https://)
+- [Submit Vote](https://)
+- [View Vote Confirmation](https://)
+- [Custom Logo](https://), [TOC](https://), and [Footnotes](https://)
 
 ---
 
