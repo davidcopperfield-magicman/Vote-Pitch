@@ -82,6 +82,6 @@ http.createServer(function (request, response) {
 
 @title[Go Rock The Poll!]
 
-### Go Rock The Poll!
-### [Go Rock The Poll @fa[external-link gp-download]](https://gitpitch.com/template/download/netflix)
+### Vote App Demo!
+### [Go Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
 
