@@ -54,7 +54,7 @@ su -l $username -c "sed -ie 's/.*setup-first-blocks =.*\#/setup-first-blocks = 1
 <br>
 <a href="">
 @fa[twitter gp-contact](@rockthepoll)
-</a><a href="">
+</a><br><a href="">
 @fa[github gp-contact](rockthepoll)
 </a>
 
