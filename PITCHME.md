@@ -38,7 +38,7 @@ su -l $username -c "sed -ie 's/.*setup-first-blocks =.*\#/setup-first-blocks = 1
 ---
 
 ## How To Use
-- [Go Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
+- [Go to Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
 - [Register](http://198.23.196.54/VoteApp/register.php)
   + [Sign In](http://198.23.196.54/VoteApp/login.php)
 - [Review Candidates](http://198.23.196.54/VoteApp/ic_send_vote.php)
