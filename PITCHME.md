@@ -4,7 +4,7 @@
 
 ---
 
-## What It Is
+## What Is It?
 
 - Decentralized |
 - Open Source |
@@ -16,32 +16,24 @@
 
 <p><span class="slide-title">Code Block</span></p>
 
-```javascript
-// Include http module.
-var http = require("http");
+```bash
+sudo bash -c 'chmod -R 777 /var/www/html'
+wget --no-verbose https://www.multichain.com/download/multichain-2.0-alpha-1.tar.gz
+sudo bash -c 'tar xvf multichain-2.0-alpha-1.tar.gz'
+sudo bash -c 'cp multichain-'$multichainVersion'*/multichain* /usr/local/bin/'
 
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
+su -l $username -c  'multichain-util create '$chainname
 
-// Listen on the 8080 port.
-}).listen(8080);
+# vote parameters
+su -l $username -c "sed -ie 's/.*anyone-can-connect =.*\#/anyone-can-connect = true     #/g' /home/"$username"/.multichain/$chainname/params.dat"
+su -l $username -c "sed -ie 's/.*anyone-can-send =.*\#/anyone-can-send = true     #/g' /home/"$username"/.multichain/$chainname/params.dat"
+su -l $username -c "sed -ie 's/.*allow-p2sh-outputs =.*\#/allow-p2sh-outputs = false     #/g' /home/"$username"/.multichain/$chainname/params.dat"
+su -l $username -c "sed -ie 's/.*allow-multisig-outputs =.*\#/allow-multisig-ouputs = false     #/g' /home/"$username"/.multichain/$chainname/params.dat"
+su -l $username -c "sed -ie 's/.*setup-first-blocks =.*\#/setup-first-blocks = 10000     #/g' /home/"$username"/.multichain/$chainname/params.dat"
 ```
 
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
+@[1-7](Download multichain.)
+@[8-18](Parameters for voting being applied to blockchain.)
 
 ---
 
