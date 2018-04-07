@@ -51,14 +51,11 @@ setup-first-blocks = 10000
 
 ### Questions?
 
-<br>
 <a href="">
-@fa[twitter gp-contact]
-  (@rockthepoll) 
+@fa[twitter](@rockthepoll) 
 </a>
 
-<br><br>
-
+<br>
 <a href="">
 @fa[github gp-contact]
   (rockthepoll) 
