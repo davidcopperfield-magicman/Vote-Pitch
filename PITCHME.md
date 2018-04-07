@@ -43,9 +43,10 @@ su -l $username -c "sed -ie 's/.*setup-first-blocks =.*\#/setup-first-blocks = 1
   + [Sign In](http://198.23.196.54/VoteApp/login.php)
 - [Review Candidates](http://198.23.196.54/VoteApp/ic_send_vote.php)
 - [Submit Vote](#)
-'''Click<br>
+
+Click<br>
 <input type="reset" class="mb-xs mt-xs mr-xs btn btn-success" onclick="sendMetadataToAddress('txtMyAddress', 'txtToAddrSWM', 'txtMessageSWM', 'txtUnitsSWM', this, 'outputSWM');" value="Send">
-'''
+
 
 - [View Vote Confirmation](http://198.23.196.54:2750/chains)
 
