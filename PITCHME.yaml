@@ -8,7 +8,7 @@ theme : night
 theme-override : assets/css/PITCHME.css
 # theme-override : assets/css/PITCHME.codemax.css
 logo : assets/image/logo.png
-highlight : atom-one-light
-transition : none
+highlight : atom-one-dark
+transition : fade
 published : true
-footnote : "GitPitch [ Netflix ] Presentation Template"
+footnote : "GitPitch [ Rock The Poll ] Presentation"
