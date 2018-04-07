@@ -38,15 +38,15 @@ su -l $username -c "sed -ie 's/.*setup-first-blocks =.*\#/setup-first-blocks = 1
 ---
 
 ## How To Use
-- [Go to Rock The Poll @fa[globe gp-download]](http://198.23.196.54/VoteApp/)
-- [Register](http://198.23.196.54/VoteApp/register.php)
-  + [Sign In](http://198.23.196.54/VoteApp/login.php)
-- [Review Candidates](http://198.23.196.54/VoteApp/ic_send_vote.php)
-- [Submit Vote]
+- [Go to Rock The Poll @fa[globe gp-download]](http://198.23.196.54/VoteApp/) |
+- [Register](http://198.23.196.54/VoteApp/register.php) |
+  + [Sign In](http://198.23.196.54/VoteApp/login.php) |
+- [Review Candidates](http://198.23.196.54/VoteApp/ic_send_vote.php) |
+- [Submit Vote] |
   + By Clicking<br>
 <input type="reset" class="mb-xs mt-xs mr-xs btn btn-success" onclick="sendMetadataToAddress('txtMyAddress', 'txtToAddrSWM', 'txtMessageSWM', 'txtUnitsSWM', this, 'outputSWM');" value="Send">
- From The Vote App Daskboard.<br>
-- [View Vote Confirmation](http://198.23.196.54:2750/chains)
+ From The Vote App Daskboard.<br> |
+- [View Vote Confirmation](http://198.23.196.54:2750/chains) |
 ---
 
 ### Questions?
@@ -54,7 +54,7 @@ su -l $username -c "sed -ie 's/.*setup-first-blocks =.*\#/setup-first-blocks = 1
 <br>
 <a href="">
 @fa[twitter gp-contact](@rockthepoll)
-</a><br><a href="">
+</a><br><br><a href="">
 @fa[github gp-contact](rockthepoll)
 </a>
 
@@ -63,5 +63,5 @@ su -l $username -c "sed -ie 's/.*setup-first-blocks =.*\#/setup-first-blocks = 1
 @title[Go Rock The Poll!]
 
 ### Big Thanks To The <a href="www.rockhall.com">Rock & Roll Hall of Fame</a>!
-#### [Go Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
+#### Now [Go Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
 
