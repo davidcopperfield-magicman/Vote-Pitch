@@ -1,6 +1,9 @@
 ## Rock The Poll
-
 #### A SXSW Hackathon Project 
+
+Rock the poll is a demonstration of a blockchain voting prototype built at the sxsw hackathon.
+The 2018 inductees have already been voted for and selected. This prototype is using last years vote as an example.
+To be used & compared against the current voting system in place.
 
 ---
 
@@ -14,7 +17,7 @@
 ---
 @title[Technical Explanation]
 
-<p><span class="slide-title">Code Block</span></p>
+<p><span class="slide-title">Simple Example Code Block</span></p>
 
 ```bash
 wget --no-verbose https://www.multichain.com/download/multichain-2.0-alpha-1.tar.gz
