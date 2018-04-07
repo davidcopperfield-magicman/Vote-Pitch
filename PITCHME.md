@@ -53,9 +53,9 @@ setup-first-blocks = 10000
 
 <br>
 <a href="">
-@fa[twitter gp-contact](@rockthepoll)
+@fa[twitter gp-contact](@rockthepoll) |
 </a><br><br><a href="">
-@fa[github gp-contact](rockthepoll)
+@fa[github gp-contact](rockthepoll) |
 </a>
 
 ---?image=assets/image/gitpitch-audience.jpg
