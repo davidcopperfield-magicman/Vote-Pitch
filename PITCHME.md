@@ -39,12 +39,15 @@ su -l $username -c "sed -ie 's/.*setup-first-blocks =.*\#/setup-first-blocks = 1
 
 ## How To Use
 - [Go Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
-- [Register](https://)
-  + [Sign In](https://)
-- [Review Candidates](https://)
-- [Submit Vote](https://)
-- [View Vote Confirmation](https://)
-- [Custom Logo](https://), [TOC](https://), and [Footnotes](https://)
+- [Register](http://198.23.196.54/VoteApp/register.php)
+  + [Sign In](http://198.23.196.54/VoteApp/login.php)
+- [Review Candidates](http://198.23.196.54/VoteApp/ic_send_vote.php)
+- [Submit Vote](#)
+'''html
+<input type="reset" class="mb-xs mt-xs mr-xs btn btn-success" onclick="sendMetadataToAddress('txtMyAddress', 'txtToAddrSWM', 'txtMessageSWM', 'txtUnitsSWM', this, 'outputSWM');" value="Send">
+'''
+
+- [View Vote Confirmation](http://198.23.196.54:2750/chains)
 
 ---
 
