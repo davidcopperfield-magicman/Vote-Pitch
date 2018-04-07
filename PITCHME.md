@@ -52,17 +52,16 @@ su -l $username -c "sed -ie 's/.*setup-first-blocks =.*\#/setup-first-blocks = 1
 ### Questions?
 
 <br>
-
+<a href="">
 @fa[twitter gp-contact](@rockthepoll)
-
+</a><a href="">
 @fa[github gp-contact](rockthepoll)
-
-@fa[medium gp-contact](@rockthepoll)
+</a>
 
 ---?image=assets/image/gitpitch-audience.jpg
 
 @title[Go Rock The Poll!]
 
-### Big Thanks To The Rock & Roll Hall of Fame!
-### [Go Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
+### Big Thanks To The <a href="www.rockhall.com">Rock & Roll Hall of Fame</a>!
+#### [Go Rock The Poll @fa[globe gp-download]](https://voteapp.gq)
 
